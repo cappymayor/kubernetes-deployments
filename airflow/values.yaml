@@ -2584,7 +2584,7 @@ pgbouncer:
 
 # Configuration for the redis provisioned by the chart
 redis:
-  enabled: true
+  enabled: false
   terminationGracePeriodSeconds: 600
 
   # Annotations for Redis Statefulset
@@ -2815,7 +2815,7 @@ cleanup:
 # Configuration for postgresql subchart
 # Not recommended for production
 postgresql:
-  enabled: true
+  enabled: false
   auth:
     enablePostgresUser: true
     postgresPassword: postgres
