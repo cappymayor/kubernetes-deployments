@@ -2815,7 +2815,7 @@ cleanup:
 # Configuration for postgresql subchart
 # Not recommended for production
 postgresql:
-  enabled: false
+  enabled: true
   auth:
     enablePostgresUser: true
     postgresPassword: postgres
